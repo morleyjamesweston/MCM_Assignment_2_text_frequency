@@ -117,10 +117,9 @@ ok_cupid <- ....
 
 
 
-# 2. Rename the question columns to something sensible, using a pipe and 
-# the rename() function.
 
-# I've selected 5 safe-for-work questions for you to examine.
+
+# 2 I've selected 5 safe-for-work questions for you to examine.
 
 # q36355	Would you consider dating someone who has extensive facial tattoos?
 # q45632	Are you a fan of professional wrestling?
@@ -128,10 +127,7 @@ ok_cupid <- ....
 # q45835	Which is your favorite weather?
 # q12584	Do you enjoy exercise?
 
-
-
-
-# 3 Use GGplot to make 3 charts of your choice based on this data.
+# Use GGplot to make 3 charts of your choice based on this data.
 # This is more open-ended, you can choose whatever kind of geometry and data you like.
 # Be sure to add proper labels!
 
@@ -145,10 +141,9 @@ ok_cupid |>
      x="Age (years)",
      y="Count"
     )
-
 # (You can't use this one)
 
-# If you want to do something fancy, look here for inspiration:
+# If you want to do something fancy, look here for inspiration and code samples:
 # https://r-graph-gallery.com/
 
 
