@@ -50,7 +50,8 @@ covid_df <- read_csv(...
 # Second, we'll look at all the tweets from former US president Donald Trump.
 # You can find it in input_data/trump_tweets.csv
 
-
+# It was pulled from: 
+# https://www.kaggle.com/datasets/codebreaker619/donald-trump-tweets-dataset/
 
 # 1. Load the dataset from the CSV
 trump_tweets <- ...
@@ -92,7 +93,12 @@ trump_tweets <- ...
 
 # It can be found in input_data/ok_cupid.csv
 
-
+# The original is from:
+# https://figshare.com/articles/dataset/OKCupid_Datasets/14987388
+# (It is in a different file format called parquet,
+#   If you want to play around with the original data,
+#   you'll need to install the "arrow" package, then read it with
+#   read_parquet("file_path"))
 
 
 # 1. Load the dataset as a dataframe, using "Import Dataset"
